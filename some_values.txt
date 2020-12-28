@@ -1,0 +1,27 @@
+Minimizable function |z-h| values with different locations.
+loc is true damage location. As we can see, the function get smaller
+depending how close we are to it:
+
+loc=[-0.3 -0.3 -0.3]';
+z=getz(loc,parameters,x);
+
+
+>> norm(z-getz(loc,parameters,x))
+
+ans =
+
+     0
+
+>> norm(z-getz(loc+[0.05 0.05 0.05]',parameters,x))
+
+ans =
+
+   2.2759e-04
+
+
+ 
+>> norm(z-getz([0.35 0.35 0.35]',parameters,x))
+
+ans =
+
+   6.7150e-04
