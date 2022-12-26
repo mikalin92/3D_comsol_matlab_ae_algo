@@ -1,5 +1,7 @@
 Tested with:
 COMSOL 5.1 with MATLAB R2014b
+Use shortcut: 'COMSOL 5.1 with MATLAB' in your COMSOL folder
+Do not open with regular MATLAB as it is not interlinked to COMSOL.
 
 3D algorithm for finding acoustic emission source (fracture)
 
