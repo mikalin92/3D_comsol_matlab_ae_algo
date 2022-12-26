@@ -24,7 +24,7 @@ matlab_path_string=pwd;
 
 
 
-
+model_path=strcat(matlab_path_string,'\mphfiles');
 
 
 
@@ -38,7 +38,7 @@ import com.comsol.model.util.*
 
 model = ModelUtil.create('Model');
 
-model.modelPath('C:\Users\Mika\OneDrive for Business\concrete_3d');
+model.modelPath(model_path);
 
 model.label('comsol_model3d.mph');
 
